@@ -13,7 +13,7 @@ const HeroSection = () => {
             variant="secondary"
             className="relative px-6 py-2 text-base font-medium bg-white rounded-full group-hover:bg-red-50 transition-colors duration-200"
           >
-            <Sparkles className="h-96 w-96 mr-2 text-rose-600 animate-pulse" />
+            <Sparkles className=" mr-2 text-rose-600 animate-pulse" style={{ width: "1.5rem", height: "1.5rem" }} />
             <p className="text-base text-rose-600">Powered by AI</p>
           </Badge>
         </div>
@@ -36,7 +36,7 @@ const HeroSection = () => {
         >
           <Link href="/#pricing" className="flex items-center gap-2">
             <span>Try Sommaire</span>
-            <ArrowRight className="animate-pulse" />
+            <ArrowRight className="animate-pulse size-4 sm:size-5 md:size-6" />
           </Link>
         </Button>
       </div>
